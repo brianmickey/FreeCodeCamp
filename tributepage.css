@@ -1,0 +1,29 @@
+h1 {
+  font-size: 100px;
+  text-align: center;
+}
+a {
+  color:#6D7275;
+}
+#main {
+  font-family: monospace;
+  background-color: #0C120C;
+  color: #C7D6D5
+}
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 100%;
+  margin-bottom: 0px;
+}
+#img-caption {
+  text-align: center;
+  margin-bottom: 100px;
+}
+#tribute-info {
+  font-size:30px;
+  margin: 0px 30px 200px 30px;
+
+}

@@ -25,3 +25,7 @@ h2 {
   padding: 10px;
   border: 1px solid black;
 }
+form {
+  padding-left: 40%;
+  font-size: 18px;
+}

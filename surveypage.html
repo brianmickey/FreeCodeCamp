@@ -3,64 +3,78 @@
   <title>Reader Survey</title>
 </head>
 <header>
-  <h1 class="title">2018 Reading Survey</h1>
+  <h1 id="title">2018 Reading Survey</h1>
 </header>
 <body>
 
-  <h2>Let us know about your reading habits!</h2>
+  <h2 id="description">Let us know about your reading habits!</h2>
 
   <div>
-   <form>
-     First Name:
-    <input type="text" name="FirstName" autofocus required> <br><br>
-     Last Name:
-    <input type="text" name="LastName" required> <br><br>
-     Age:
-    <input type="number" name="Age" min="1" max="110" required> <br><br>
-     Highest Level of Education:
-     <select name="GED">
-    <option value="High-School">High School</option>
+   <form id="survey-form">
+     <label for="fName">First Name:</label>
+    <input type="text" id ="fName" name="FirstName" autofocus required> <br><br>
+
+     <label for="lName">Last Name:</label>
+    <input type="text" id ="lName" name="LastName" required> <br><br>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="Email" required> <br><br>
+
+     <label for="age">Age:</label>
+    <input type="number" id="age" name="Age" min="1" max="110" required> <br><br>
+
+     <label for="education">Highest Level of Education:</label>
+     <select>
+    <option value="GED">GED</option>
+    <option value="High-School" selected >High School</option>
     <option value="Some-College">Some College</option>
-    <option value="4-Year-Degree" selected>4 Year Degree</option>
+    <option value="4-Year-Degree">4 Year Degree</option>
     <option value="Advanced-Degree">Advanced Degree</option>
   </select>
   <br><br>
-     Do you read for pleasure?<br><br>
+
+     <label for="fName"><label for="fName">Do you read for pleasure?</label><br><br>
      <input type="radio" name="Pleasure" value="yes">  Yes<br><br>
      <input type="radio" name="Pleasure" value="no"> No <br><br>
-     Do you listen to Audiobooks?<br><br>
+
+    <label for="fName"> Do you listen to Audiobooks?</label><br><br>
      <input type="radio" name="Audiobooks" value="yes">  Yes<br><br>
      <input type="radio" name="Audiobooks" value="no">  No<br><br>
-     How many books have you read or listened to in the last 12 months?
-     <input type="number" name="YearRead" min="0" max="200"><br><br>
-     How many hours do you read during a typical week?<br><br>
+
+     <label for="fName">How many books have you read or listened to in the last 12 months?</label>
+     <input type="number" name="YearRead" min="0" max="1000"><br><br>
+
+    <label for="fName"> How many hours do you read during a typical week?</label><br><br>
      <input type="radio" name="HoursRead" value="0-3"> 0-3
      <input type="radio" name="HoursRead" value="3-5"> 3-5
      <input type="radio" name="HoursRead" value="more"> 5+<br><br>
-     What types of books do you like to read? (check all that apply)<br><br>
-     <input type="checkbox" name="genre1" value="Bike">Biography/Autobiography<br>
-     <input type="checkbox" name="genre2" value="Bike">Science Fiction<br>
+
+     <label for="fName">What types of books do you like to read? (check all that apply</label>)<br><br>
+     <input type="checkbox" name="genre1" value="bio">Biography/Autobiography<br>
+     <input type="checkbox" name="genre2" value="scifi">Science Fiction<br>
      <input type="checkbox" name="genre3" value="Bike">Fantasy<br>
      <input type="checkbox" name="genre4" value="Bike">Young Adult<br>
-     <input type="checkbox" name="genre1" value="Bike">Drama<br>
-     <input type="checkbox" name="genre1" value="Bike">Humor<br>
-     <input type="checkbox" name="genre1" value="Bike">Crime/Mystery<br>
-     <input type="checkbox" name="genre1" value="Bike">Romance/Erotica<br>
-     <input type="checkbox" name="genre1" value="Bike">Self-Help<br>
-     <input type="checkbox" name="genre1" value="Bike">Travel<br>
-     <input type="checkbox" name="genre1" value="Bike">Religious/Spiritual<br>
-     <input type="checkbox" name="genre1" value="Bike">Science/Nature<br>
-     <input type="checkbox" name="genre1" value="Bike">History<br>
-     <input type="checkbox" name="genre1" value="Bike">Poetry<br>
-     <input type="checkbox" name="genre1" value="Bike">Reference<br>
-     <input type="checkbox" name="genre1" value="Bike">Comics/Graphic Novels<br>
-     <input type="checkbox" name="genre1" value="Bike">Art<br>
-     <input type="checkbox" name="genre1" value="Bike">Cooking<br>
-     <input type="checkbox" name="genre1" value="Bike">Horror<br>
-     <input type="checkbox" name="genre1" value="Bike">Business/Personal Finance<br><br>
-     Do you wish you had more time to read?<br><br>
+     <input type="checkbox" name="genre5" value="Bike">Drama<br>
+     <input type="checkbox" name="genre6" value="Bike">Humor<br>
+     <input type="checkbox" name="genre7" value="Bike">Crime/Mystery<br>
+     <input type="checkbox" name="genre8" value="Bike">Romance/Erotica<br>
+     <input type="checkbox" name="genre9" value="Bike">Self-Help<br>
+     <input type="checkbox" name="genre10" value="Bike">Travel<br>
+     <input type="checkbox" name="genre11" value="Bike">Religious/Spiritual<br>
+     <input type="checkbox" name="genre12" value="Bike">Science/Nature<br>
+     <input type="checkbox" name="genre13" value="Bike">History<br>
+     <input type="checkbox" name="genre14" value="Bike">Poetry<br>
+     <input type="checkbox" name="genre15" value="Bike">Reference<br>
+     <input type="checkbox" name="genre16" value="Bike">Comics/Graphic Novels<br>
+     <input type="checkbox" name="genre17" value="Bike">Art<br>
+     <input type="checkbox" name="genre18" value="Bike">Cooking<br>
+     <input type="checkbox" name="genre19" value="Bike">Horror<br>
+     <input type="checkbox" name="genre20" value="Bike">Business/Personal Finance<br><br>
+
+     <label for="fName">Do you wish you had more time to read?</label><br><br>
      <input type="radio" name="Time" value="yes">  Yes<br><br>
      <input type="radio" name="Time" value="no"> No <br><br>
+
      <button id="submit" type="submit">Submit</button>
     </div>
     <div>

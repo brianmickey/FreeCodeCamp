@@ -17,7 +17,11 @@ body {
   color: #DCDCDC;
   top: 0;
   min-height: 200px;
+  width: 100%;
   padding: 0px 20px;
+  position: fixed;
+  top: 0;
+  background-color: #000;
 
 }
 
@@ -35,6 +39,7 @@ body {
 #content {
   /* grid-column: 4 / 9; */
   color: #DCDCDC;
+  margin-top: 220px;
 }
 
 #form {
@@ -62,6 +67,7 @@ a {
 p {
   font-size: 50px;
   color: #DCDCDC;
+  text-align: center;
 }
 
 ul {
@@ -71,6 +77,11 @@ ul {
 
 .nav-link {
 display: inline-block;
+}
+
+iframe {
+  margin: 0 auto;
+  text-align: center;
 }
 
 

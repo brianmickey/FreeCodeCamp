@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+  display: grid;
+  grid-template:  "navbar"
+                          "content";
+  grid-template-areas: minmax(30px, auto) 1fr;
+}
+#content {
+
+}
+
+#navbar {
+  grid-area: navbar;
+  position: fixed;
+}
+#navbar li {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 20px 5px;
+  margin: 10px 0;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+#content {
+  grid-area: content;
+}
+
+#welcome-section {
+  height: 100vh;
+  background-color: lightblue;
+}
+
+@media screen and (max-width: 750px) {
+  #navbar {
+      position: relative;
+  }
+
+}

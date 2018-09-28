@@ -41,8 +41,8 @@ a {
 
 #projects {
   display: grid;
-  grid-template-columns: repeat(4, 250px);
-  grid-template-rows: repeat(4, 250px);
+  grid-template-columns: repeat(3, 250px);
+  grid-template-rows: repeat(3, 250px);
   grid-gap: 40px;
   justify-content: center;
   align-items: center;
@@ -57,6 +57,11 @@ a {
   width: auto;
   background-color: white;
   font-weight: bold;
+  text-align: center;
+}
+
+.project-pic {
+  padding-top: 15px;
 }
 
 #contact {

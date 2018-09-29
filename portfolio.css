@@ -46,6 +46,13 @@ a {
   color: #FFFFFF;
 }
 
+#welcome-section h2 {
+  /* margin-top: 40vh; */
+  margin-left: 75vh;
+  font-size: 45px;
+  color: #FFFFFF;
+}
+
 #projects {
   display: grid;
   grid-template-columns: repeat(3, 250px);
